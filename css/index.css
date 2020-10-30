@@ -136,7 +136,7 @@ nav a{
     margin: 2%;
     border:none;
     padding-bottom: 2%;
-    border-bottom:1px dotted rgb(0, 0, 0);
+    border-bottom:1px dashed rgb(0, 0, 0);
     }
 
 .container.about-page .disblockB{
@@ -159,7 +159,7 @@ nav a{
     padding: 2%;
     width: 45%;
     border:none;
-    border-bottom:1px dotted rgb(0, 0, 0);
+    border-bottom:1px dashed rgb(0, 0, 0);
      }
 
 .aboutblocktexts{
