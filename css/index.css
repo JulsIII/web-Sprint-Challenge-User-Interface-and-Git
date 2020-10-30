@@ -79,8 +79,14 @@ a{
 }
 
 nav{
-    padding:0% 0;
+    padding-left: 4%;
     display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 18%;
+    
     /*padding-left: 5%;*/
 }
 
@@ -88,10 +94,11 @@ nav a{
     display:inline-block;
     border-radius:1px;
     text-align:center;
-    margin-left: 0;
+    margin-left: 5%;
     margin-right: 20%;
     padding:5% 2%;
     color:#000000;
+    font-size: .9rem;
 }
 
 
@@ -107,12 +114,12 @@ nav a{
 .secA img{
     margin-left: 0%;
     margin-right: 0%;
-    padding-right:7%;
+    padding-right:8%;
 }
 
 .secA nav{
     margin-left: 0%;
-    margin-right: 13%;
+    margin-right: 8%;
 }
 
 .secB{
