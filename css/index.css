@@ -73,6 +73,7 @@ header{
     flex-direction: column;
 }
 
+/* Links & Nav */
 a{
     text-decoration:none;
 }
@@ -97,7 +98,7 @@ nav a{
     font-size: .9rem;
 }
 
-
+/* Index Sections */
 .secA{
     display:flex;
     flex-direction: row;
@@ -132,6 +133,7 @@ nav a{
     margin: 0 auto;
 }
 
+/* About Page */
 .container.about-page .disblockA{
     margin: 2%;
     border:none;
@@ -155,7 +157,7 @@ nav a{
 
 .container.about-page .abtblocks .abtblock{
     flex-wrap: wrap;
-    margin: 1%;
+    margin: 2%;
     padding-bottom: 4%;
     width: 45%;
     border:none;
@@ -182,6 +184,7 @@ nav a{
     font-size: 1.2rem;
 }
 
+/* Main Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -212,6 +215,7 @@ nav a{
     justify-content: space-evenly;
 }
 
+/* Colored Boxes */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -222,7 +226,6 @@ nav a{
     align-items: center;
     justify-content: center;
 }
-
 .middle-content .boxes .box.box1{
     background-color: teal;
 }   
@@ -254,6 +257,7 @@ nav a{
     background-color:dodgerblue;
 }
 
+/* Other Main Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
