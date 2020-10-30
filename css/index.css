@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,7 +48,9 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
+    max-width:100%;
+    /*border:1px solid #666666;*/
 }
 
 html, body {
@@ -64,6 +66,62 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+nav{
+    padding:0% 0;
+    display:flex;
+    /*padding-left: 5%;*/
+}
+
+nav a{
+    display:inline-block;
+    border-radius:1px;
+    text-align:center;
+    margin-left: 0;
+    margin-right: 20%;
+    padding:5% 2%;
+    color:#000000;
+}
+
+
+.secA{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.secA img{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right:7%;
+}
+
+.secA nav{
+    margin-left: 0%;
+    margin-right: 13%;
+}
+
+.secB{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
 }
 
 .container {
