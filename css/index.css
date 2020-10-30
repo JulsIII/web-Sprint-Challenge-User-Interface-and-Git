@@ -73,7 +73,6 @@ header{
     flex-direction: column;
 }
 
-
 a{
     text-decoration:none;
 }
@@ -86,9 +85,7 @@ nav{
     flex-direction: row;
     align-items: center;
     width: 18%;
-    
-    /*padding-left: 5%;*/
-}
+    }
 
 nav a{
     border-radius:1px;
@@ -133,12 +130,6 @@ nav a{
 .container {
     width: 800px;
     margin: 0 auto;
-}
-
-
-.container.about-page{
-
-
 }
 
 .container.about-page .disblockA{
