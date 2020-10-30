@@ -33,10 +33,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-    Semantic HTML has meaning to it's content and is more inline with accessiblilty standards. 
+    Semantic HTML defines it's content and nonsemantic defines nothing about it's content. Semantic is more inline with accessiblilty standards. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-    Display:inline will prvent a page break and block will not. Blocks have more white space.
+    Display:inline will prevent a page break and tolerate other elements next to them. Blocks have more white space and will not tolerate elements next to them.
 
 3. What are the 4 areas of the box model?
     Margin, Border, Padding, & Content.
@@ -46,7 +46,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 
 5. Explain why git is valuable to a team of developers.
-    File Version Control, Ability to compare pulls, Backups, Multiple branches to keep oriignals.
+    File Version Control, Ability to compare pulls, Backups, Multiple branches to keep orignals.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
