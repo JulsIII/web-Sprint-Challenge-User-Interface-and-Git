@@ -141,9 +141,16 @@ nav a{
 
 }
 
-.container.about-page .disblock{
-    margin: 5%;
+.container.about-page .disblockA{
+    margin: 2%;
+    border:none;
+    padding-bottom: 2%;
+    border-bottom:1px dotted rgb(0, 0, 0);
     }
+
+.container.about-page .disblockB{
+ margin: 5%;
+  }
 
 .container.about-page .abtblocks{
     display:flex;
@@ -152,6 +159,7 @@ nav a{
     width: 100%;
     justify-content: center;
     align-items: center;    
+    margin-top: 0%;
     }
 
 .container.about-page .abtblocks .abtblock{
@@ -275,11 +283,11 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 0px 2%;
     font-size: 14px;
 }
 
